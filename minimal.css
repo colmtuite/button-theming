@@ -1,0 +1,59 @@
+.Button.color-neutral {
+  background: var(--gray-c1);
+  color: var(--gray-t2);
+}
+
+@media (hover: hover) {
+  .Button.color-neutral:hover {
+    background: var(--gray-c2);
+  }
+}
+
+.Button.color-neutral:active {
+  background: var(--gray-c3);
+}
+
+.Button.color-accent {
+  background: var(--indigo-p1);
+  color: white;
+}
+
+@media (hover: hover) {
+  .Button.color-accent:hover {
+    background: var(--indigo-p2);
+  }
+}
+
+.Button.color-accent:active {
+  background: var(--indigo-p2);
+}
+
+.Button.color-positive {
+  background: var(--green-p1);
+  color: white;
+}
+
+@media (hover: hover) {
+  .Button.color-positive:hover {
+    background: var(--green-p2);
+  }
+}
+
+.Button.color-positive:active {
+  background: var(--green-p2);
+}
+
+.Button.color-negative {
+  background: var(--red-p1);
+  color: white;
+}
+
+@media (hover: hover) {
+  .Button.color-negative:hover {
+    background: var(--red-p2);
+  }
+}
+
+.Button.color-negative:active {
+  background: var(--red-p2);
+}

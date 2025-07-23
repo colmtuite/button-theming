@@ -1,7 +1,55 @@
 :root {
-  /*
-    System variables
-  */
+  --gray-s1: hsl(0, 0%, 99%);
+  --gray-s2: hsl(0, 0%, 97.5%);
+  --gray-c1: hsl(0, 0%, 95%);
+  --gray-c2: hsl(0, 0%, 93.25%);
+  --gray-c3: hsl(0, 0%, 91.75%);
+  --gray-o1: hsl(0, 0%, 91.5%);
+  --gray-o2: hsl(0, 0%, 81%);
+  --gray-o3: hsl(0, 0%, 73%);
+  --gray-p1: hsl(0, 0%, 55%);
+  --gray-p2: hsl(0, 0%, 51%);
+  --gray-t1: hsl(0, 0%, 39%);
+  --gray-t2: hsl(0, 0%, 13%);
+
+  --indigo-s1: hsl(220, 100%, 99.25%);
+  --indigo-s2: hsl(218, 100%, 98.5%);
+  --indigo-c1: hsl(214, 100%, 96%);
+  --indigo-c2: hsl(216, 100%, 95%);
+  --indigo-c3: hsl(217, 100%, 94%);
+  --indigo-o1: hsl(225, 100%, 88%);
+  --indigo-o2: hsl(226, 87%, 82%);
+  --indigo-o3: hsl(226, 75%, 75%);
+  --indigo-p1: hsl(226, 70%, 55%);
+  --indigo-p2: hsl(226, 65%, 52%);
+  --indigo-t1: hsl(226, 56%, 50%);
+  --indigo-t2: hsl(226, 50%, 24%);
+
+  --red-s1: hsl(0, 100%, 99.25%);
+  --red-s2: hsl(0, 100%, 98.5%);
+  --red-c1: hsl(0, 100%, 96.75%);
+  --red-c2: hsl(0, 100%, 95.75%);
+  --red-c3: hsl(0, 100%, 95%);
+  --red-o1: hsl(359, 94%, 87%);
+  --red-o2: hsl(359, 77%, 81%);
+  --red-o3: hsl(359, 70%, 74%);
+  --red-p1: hsl(358, 75%, 59%);
+  --red-p2: hsl(358, 69%, 55%);
+  --red-t1: hsl(358, 65%, 49%);
+  --red-t2: hsl(351, 63%, 24%);
+
+  --green-s1: hsl(137, 85%, 98.5%);
+  --green-s2: hsl(137, 84%, 97%);
+  --green-c1: hsl(128, 59%, 93%);
+  --green-c2: hsl(130, 57%, 91%);
+  --green-c3: hsl(132, 55%, 89%);
+  --green-o1: hsl(144, 41%, 77%);
+  --green-o2: hsl(146, 40%, 68%);
+  --green-o3: hsl(151, 40%, 54%);
+  --green-p1: hsl(151, 55%, 42%);
+  --green-p2: hsl(152, 56%, 39%);
+  --green-t1: hsl(154, 60%, 32%);
+  --green-t2: hsl(156, 42%, 24%);
 
   --jui-typeface: test untitled sans, system-ui, -apple-system, BlinkMacSystemFont, Roboto, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
 
@@ -68,26 +116,4 @@
     0 1px 2px 0 hsla(0, 0%, 0%, 0.05),
     0 1px 3px 0 hsla(0, 0%, 0%, 0.05),
     0 2px 4px -1px hsla(0, 0%, 0%, 0.05);
-
-  /*
-    Component variables
-  */
-
-  --jui-button-typeface: var(--jui-typeface);
-  --jui-button-shadow: none;
-
-  --jui-button-font-size-size-2: var(--jui-font-size-2);
-  --jui-button-height-size-2: var(--jui-space-7);
-  --jui-button-radius-size-2: var(--jui-radius-4);
-  --jui-button-padding-x-size-2: var(--jui-space-3);
-
-  --jui-button-bg-color-neutral: hsl(0 0% 96%);
-  --jui-button-bg-color-neutral--hover: hsl(0 0% 94%);
-  --jui-button-bg-color-neutral--active: hsl(0 0% 93%);
-  --jui-button-color-color-neutral: hsl(0 0% 20%);
-
-  --jui-button-bg-color-accent: hsl(220 80% 54%);
-  --jui-button-bg-color-accent--hover: hsl(220 78% 51%);
-  --jui-button-bg-color-accent--active: hsl(220 77% 49%);
-  --jui-button-color-color-accent: #fff;
 } 
