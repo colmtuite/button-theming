@@ -1,0 +1,93 @@
+:root {
+  /*
+    System variables
+  */
+
+  --jui-typeface: test untitled sans, system-ui, -apple-system, BlinkMacSystemFont, Roboto, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+
+  --jui-font-weight-1: 400;
+  --jui-font-weight-2: 500;
+  --jui-font-weight-3: 600;
+
+  --jui-space-1: 4px;
+  --jui-space-2: 8px;
+  --jui-space-3: 12px;
+  --jui-space-4: 16px;
+  --jui-space-5: 20px;
+  --jui-space-6: 24px;
+  --jui-space-7: 32px;
+  --jui-space-8: 40px;
+  --jui-space-9: 48px;
+  --jui-space-10: 64px;
+
+  --jui-font-size-1: 12px;
+  --jui-font-size-2: 14px;
+  --jui-font-size-3: 16px;
+  --jui-font-size-4: 18px;
+  --jui-font-size-5: 20px;
+  --jui-font-size-6: 26px;
+  --jui-font-size-7: 36px;
+  --jui-font-size-8: 46px;
+  --jui-font-size-9: 58px;
+
+  --jui-line-height-1: 18px;
+  --jui-line-height-2: 22px;
+  --jui-line-height-3: 24px;
+  --jui-line-height-4: 25px;
+  --jui-line-height-5: 25px;
+  --jui-line-height-6: 31px;
+  --jui-line-height-7: 38px;
+  --jui-line-height-8: 48px;
+  --jui-line-height-9: 56px;
+
+  --jui-letter-spacing-1: 0.025em;
+  --jui-letter-spacing-2: 0.0125em;
+  --jui-letter-spacing-3: 0.016em;
+  --jui-letter-spacing-4: 0.0125em;
+  --jui-letter-spacing-5: 0.0125em;
+  --jui-letter-spacing-6: -0.016em;
+  --jui-letter-spacing-7: -0.021em;
+  --jui-letter-spacing-8: -0.038em;
+  --jui-letter-spacing-9: -0.036em;
+
+  --jui-radius-1: 2px;
+  --jui-radius-2: 3px;
+  --jui-radius-3: 4px;
+  --jui-radius-4: 6px;
+  --jui-radius-5: 8px;
+  --jui-radius-6: 12px;
+  --jui-radius-7: 16px;
+  --jui-radius-pill: 9999px;
+  --jui-radius-circle: 50%;
+
+  --jui-duration-1: 25ms;
+  --jui-duration-2: 50ms;
+  --jui-duration-3: 100ms;
+
+  --jui-shadow-1:
+    0 1px 2px 0 hsla(0, 0%, 0%, 0.05),
+    0 1px 3px 0 hsla(0, 0%, 0%, 0.05),
+    0 2px 4px -1px hsla(0, 0%, 0%, 0.05);
+
+  /*
+    Component variables
+  */
+
+  --jui-button-typeface: var(--jui-typeface);
+  --jui-button-shadow: none;
+
+  --jui-button-font-size-size-2: var(--jui-font-size-2);
+  --jui-button-height-size-2: var(--jui-space-7);
+  --jui-button-radius-size-2: var(--jui-radius-4);
+  --jui-button-padding-x-size-2: var(--jui-space-3);
+
+  --jui-button-bg-color-neutral: hsl(0 0% 96%);
+  --jui-button-bg-color-neutral--hover: hsl(0 0% 94%);
+  --jui-button-bg-color-neutral--active: hsl(0 0% 93%);
+  --jui-button-color-color-neutral: hsl(0 0% 20%);
+
+  --jui-button-bg-color-accent: hsl(220 80% 54%);
+  --jui-button-bg-color-accent--hover: hsl(220 78% 51%);
+  --jui-button-bg-color-accent--active: hsl(220 77% 49%);
+  --jui-button-color-color-accent: #fff;
+} 

@@ -1,0 +1,42 @@
+.Button {
+  font-family: test untitled sans, system-ui, -apple-system, BlinkMacSystemFont, Roboto, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+  box-shadow: var(--jui-button-shadow);
+}
+
+.Button.size-2 {
+  font-size: var(--jui-button-font-size-size-2);
+  height: var(--jui-button-height-size-2);
+  border-radius: var(--jui-button-radius-size-2);
+  padding-left: var(--jui-button-padding-x-size-2);
+  padding-right: var(--jui-button-padding-x-size-2);
+}
+
+.Button.color-neutral {
+  background: var(--jui-button-bg-color-neutral);
+  color: var(--jui-button-color-color-neutral);
+}
+
+@media (hover: hover) {
+  .Button.color-neutral:hover {
+    background: var(--jui-button-bg-color-neutral--hover);
+  }
+}
+
+.Button.color-neutral:active {
+  background: var(--jui-button-bg-color-neutral--active);
+}
+
+.Button.color-accent {
+  background: var(--jui-button-bg-color-accent);
+  color: var(--jui-button-color-color-accent);
+}
+
+@media (hover: hover) {
+  .Button.color-accent:hover {
+    background: var(--jui-button-bg-color-accent--hover);
+  }
+}
+
+.Button.color-accent:active {
+  background: var(--jui-button-bg-color-accent--active);
+}
